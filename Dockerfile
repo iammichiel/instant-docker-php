@@ -1,11 +1,11 @@
 FROM alpine:latest
 
-RUN apk update && \
-    apk add \
+RUN apk add --update \
     php5 \
     php5-curl \
     php5-ctype \
     php5-json \
+    php5-phar \
     php5-pdo \
     php5-pdo_mysql \
     php5-pdo_sqlite \
@@ -13,4 +13,5 @@ RUN apk update && \
     php5-xml \
     php5-dom \
     php5-posix \
-    php5-iconv
+    php5-iconv \
+    curl

@@ -16,4 +16,6 @@ RUN apk add --update \
     php5-dom \
     php5-posix \
     php5-iconv \
-    curl
+    curl \
+    git \
+    openssh-client

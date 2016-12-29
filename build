@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -ex
+
+docker build --no-cache -t iammichiel/instant-php:latest .
+docker push iammichiel/instant-php:latest

@@ -11,6 +11,8 @@ RUN apk add --update \
     php5-pdo_sqlite \
     php5-intl \
     php5-xml \
+    php5-zlib \
+    php5-openssl \
     php5-dom \
     php5-posix \
     php5-iconv \

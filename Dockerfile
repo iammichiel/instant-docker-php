@@ -18,6 +18,7 @@ RUN apk add --update \
     php5-iconv \
     curl \
     git \
+    sudo \
     openssh-client && \
     curl -sS -o composer-install.php https://getcomposer.org/installer && \
     php composer-install.php --install-dir=bin --filename=composer && \

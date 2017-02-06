@@ -23,3 +23,5 @@ RUN apk add --update \
     curl -sS -o composer-install.php https://getcomposer.org/installer && \
     php composer-install.php --install-dir=bin --filename=composer && \
     rm composer-install.php
+
+ENTRYPOINT ["/bin/sh","-c"]

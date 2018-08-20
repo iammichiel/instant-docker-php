@@ -2,6 +2,7 @@
 
 Small docker image with most common requirements : 
 
+- Based on the php:7.1 image
 - git (private dependencies through composer)
 - pdo mysql driver 
 

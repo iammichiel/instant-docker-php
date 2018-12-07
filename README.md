@@ -2,10 +2,13 @@
 
 Small docker image with most common requirements : 
 
-- Based on the php:7.1 image
+- Based on the php:7.2 image
 - git (private dependencies through composer)
-- pdo mysql driver 
+  
+- amqp
+- imagick
+- intl
+- mysql
 
 ## Improvements 
 
-- Perhaps add the intl extension as well. 

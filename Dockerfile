@@ -14,7 +14,6 @@ RUN apt-get update  \
     && docker-php-ext-install pdo pdo_mysql \
     && docker-php-ext-install intl \
     && docker-php-ext-install bcmath \
-    && docker-php-ext-install pdo_mysql \
     && docker-php-ext-install exif \
     && pecl install imagick amqp \
     && docker-php-ext-enable imagick amqp \
